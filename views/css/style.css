@@ -1,0 +1,629 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 3.0 License
+
+Name       : Big Business
+Description: A two-column, fixed-width design with a bright color scheme.
+Version    : 1.0
+Released   : 20120210
+*/
+
+* {
+	margin: 0 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #0F8C8C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 11.5pt;
+	color: #5C5B5B;
+	line-height: 1.75em;
+	background: #F5DEB3 url('../imagens/abstract2.jpg') repeat;
+}
+
+body,input {
+	font-family: Arial;
+}
+
+strong {
+	color: #2C2B2B;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h2,h3,h4 {
+	color: #2C2B2B;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+img.pic {
+	padding: 5px;
+	border: solid 1px #D4D4D4;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	/*margin-bottom: 1.5em;*/
+}
+
+ul h4 {
+	/*margin-bottom: 0.35em;*/
+}
+
+.box {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.date {
+	background: #6E6E6E;
+	padding: 5px 6px 5px 6px;
+	margin: 0 6px 0 0;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	border-radius: 2px;
+}
+
+.titulo_page{
+	color: #1C94C4;
+    font-weight: bold;
+}
+
+#content {
+	width: 780px;
+	float: left;
+	padding: 0;
+}
+
+#content-box1 {
+	width: 320px;
+	float: left;
+}
+
+#content-box2 {
+	/*margin: 0 0 0 345px;*/
+	width: 320px;
+}
+
+#footer {
+	margin: 40px 0 120px 0;
+	text-align: center;
+	color: #8C8B8B;
+}
+
+#footer a {
+	color: #8C8B8B;
+}
+
+#master_header{
+	height: 130px;
+	position: relative;
+	margin: 0px auto 0 auto;
+	box-shadow: 1px 1px 2px #AAAAAA;
+	border-radius: 0px 0px 15px 15px;
+	background: #fff ;
+}
+
+#logo_cjaf{
+	width: 888px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#header {
+	height: 60px;
+	position: relative;
+	background: url("ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png") repeat-x scroll 50% 50% ;
+	/*padding: 14px;
+	color: #FFFFFF;
+	/*border: solid 1px #7E7E7E;*/
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	overflow: hidden;
+}
+
+#header_login{
+	background: url("dark-theme/images/ui-bg_gloss-wave_35_333333_500x100.png") repeat-x scroll 50% 50% transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #FFFFFF;
+    height: 48px;
+    overflow: hidden;
+    padding: 14px;
+    margin-left: 0px;
+    position: relative;
+    width: 768px;
+}
+
+#header a{
+	text-decoration: none;
+	color: #cf7800;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+#header a:hover{
+	color: #ffa426;
+	border-bottom: 2px solid #ffa426;
+}
+
+#logo {
+	line-height: 160px;
+	height: 160px;
+	padding: 15px 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 45px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px #3E3E3E;
+}
+
+#logo h1 {
+	font-size: 3.25em;
+}
+
+#titulo_pagina
+{
+	font-family: sans-serif;
+	/*padding-top: 10px;*/
+	text-align: center;
+}
+
+#user{
+	padding: 10px;
+	background: #FAFAD2;
+	/*height: 24px;*/
+}
+
+#slogan {
+	line-height: 160px;
+	height: 160px;
+	padding: 5px 0 0 0;
+	position: absolute;
+	right: 45px;
+	top: 0;
+}
+
+#slogan h2 {
+	color: #BEBEBE;
+	font-size: 1.25em;
+	text-shadow: 0 1px 1px #3E3E3E;
+}
+
+#menu {
+	padding: 0 45px 0 45px;
+	position: relative;
+	background: #808080 url(images/img02.gif) repeat-x top left;
+	margin: 0 0 0 0;
+	height: 48px;
+	line-height: 60px;
+	width: 890px;
+	/*border-top: solid 1px #5AD7D7;*/
+	border-top: solid 1px #FFFFFF;
+	/*text-shadow: 0 1px 1px #007D7D;*/
+	border-bottom: solid 4px #FFCC00;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.25em;
+	letter-spacing: -1px;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0 20px 0 20px;
+	display: inline;
+}
+
+#menu ul li.first {
+	padding-left: 0;
+}
+
+#page {
+	background-color: white;
+	box-shadow: 1px 1px 2px 0 #BBBBBB;
+	padding: 20px 45px 15px 45px;
+	position: relative;
+}
+
+#page_login{
+	padding: 20px 45px 15px 45px;
+	position: relative;
+	width: 460px;
+	margin: 0;
+}
+
+#page .section-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#page .section-list li {
+	clear: both;
+	padding: 30px 0 30px 0;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	/*border-top: solid 1px #D4D4D4;*/
+	padding: 15px 0 15px 0;
+}
+
+#page ul li.notas {
+	border-top: solid 1px #D4D4D4;
+	float: left;
+	padding: 15px 0 15px 0;
+	width: 148px;
+}
+#page ul li.etapa {
+	border-top: solid 1px #D4D4D4;
+	float: left;
+	padding: 15px 0 15px 0;
+	width: 277px;
+}
+#page ul li.notas input {
+;
+	width: 100px;
+}
+
+#page ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom {
+	position: relative;
+	margin: 0;
+	background: #6E6E6E url(images/img03.jpg) top left no-repeat;
+	border: solid 1px #7E7E7E;
+	width: 888px;
+	padding: 45px 45px 0 45px;
+	color: #DCDCDC;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#page-bottom a {
+	color: #F5F5F5;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #FFFFFF;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom ul li {
+	border-top: solid 1px #8F8F8F;
+	padding: 15px 0 15px 0;
+}
+
+#page-bottom ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom-content {
+	width: 750px;
+	float: left;
+}
+
+#page-bottom-sidebar {
+	width: 200px;
+	margin: 0 0 0 690px;
+}
+
+#search input.form-submit {
+	margin-left: 1em;
+	color: #FFFFFF;
+	padding: 10px;
+	background: #2FACAC;
+	border: 0;
+}
+
+#search input.form-text {
+	border: solid 1px #8F8F8F;
+	padding: 10px;
+}
+
+#sidebar {
+	width: 200px;
+	padding: 0;
+	margin: 0 0 0 690px;
+}
+
+#splash {
+	margin: 0 0 0 0;
+	height: 250px;
+	position: relative;
+	padding: 45px 45px 10px 45px;
+	width: 890px;
+}
+
+#splash .pic {
+	padding: 9px;
+}
+
+#wrapper {
+	position: relative;
+	width: 1200px;
+	margin: 30px auto 0 auto;
+	background: #FFFFFF;
+	border-radius: 15px;
+}
+
+#wrapper_login{
+	position: relative;
+	width: 767px;
+	margin: 30px auto 0 auto;
+	background: #FFFFFF;
+	border-radius: 15px;
+}
+
+.form{font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;}
+label{font-size: 12px}
+/*input{ height: 25px; }*/
+.input{width: 100%; height: 25px}
+.inputS{width: 100%; height: 30px}
+option {border: solid 1px #cccccc; width: 100%; }
+.button {border: 1px solid #A0A0A0; background: #CCCCCC; width: 108px; margin: 10px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif}
+
+.content2{border: solid 1px #D4D4D4; padding: 20px;}
+.content3{border: solid 1px #D4D4D4; padding: 30px 30px 50px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 12px }
+.content3 input{border: solid 1px #cccccc; width: 50%; height: 25px;}
+#line1{width: 390px; float: left; padding: 10px;}
+#line2{width: 130px; float: left; padding: 10px;}
+#line3{width: 80px; float: left; padding: 10px;}
+#line4{width: 150px; float: left; padding: 10px;}
+#line5{width: 190px; float: left; padding: 10px;}
+#line6{width: 250px; float: left; padding: 10px;}
+
+
+/*** Calendar **********************/
+div.calendar { position: relative; }
+
+.calendar table {
+cursor:pointer;
+border:1px solid #ccc;
+font-size: 11px;
+color: #000;
+background: #fff;
+font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+width: 170px;
+}
+
+.calendar .button { 
+text-align: center;    
+padding: 2px;          
+}
+
+.calendar .nav {
+background:#f5f5f5;
+}
+
+.calendar thead .title { 
+font-weight: bold;      
+text-align: center;
+background: #dedede;
+color: #000;
+padding: 2px 0 3px 0;
+}
+
+.calendar thead .headrow { 
+background: #f5f5f5;
+color: #444;
+font-weight:bold;
+}
+
+.calendar thead .daynames { 
+background: #fff;
+color:#333;
+font-weight:bold;
+}
+
+.calendar thead .name { 
+border-bottom: 1px dotted #ccc;
+padding: 2px;
+text-align: center;
+color: #000;
+}
+
+.calendar thead .weekend { 
+color: #666;
+}
+
+.calendar thead .hilite { 
+background-color: #444;
+color: #fff;
+padding: 1px;
+}
+
+.calendar thead .active { 
+background-color: #d12f19;
+color:#fff;
+padding: 2px 0px 0px 2px;
+}
+
+
+.calendar tbody .day { 
+width:1.8em;
+color: #222;
+text-align: right;
+padding: 2px 2px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+font-size: 80%;
+color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+color: #fbb;
+}
+
+.calendar table .wn {
+padding: 2px 2px 2px 2px;
+border-right: 1px solid #000;
+background: #666;
+}
+
+.calendar tbody .rowhilite td {
+background: #FFF1AF;
+}
+
+.calendar tbody .rowhilite td.wn {
+background: #FFF1AF;
+}
+
+.calendar tbody td.hilite { 
+padding: 1px 1px 1px 1px;
+background:#444 !important;
+color:#fff !important;
+}
+
+.calendar tbody td.active { 
+color:#fff;
+background: #529214 !important;
+padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { 
+font-weight: bold;
+border: 1px solid #888;
+padding: 1px 1px 1px 1px;
+background: #f5f5f5 !important;
+color: #222 !important;
+}
+
+.calendar tbody td.weekend { 
+color: #666;
+}
+
+.calendar tbody td.today { 
+font-weight: bold;
+color: #529214;
+background:#D9EFC2;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { 
+visibility: hidden;
+}
+
+.calendar tbody .emptyrow { 
+display: none;
+}
+
+.calendar tfoot .footrow { 
+text-align: center;
+background: #556;
+color: #fff;
+}
+
+.calendar tfoot .ttip { 
+background: #222;
+color: #fff;
+font-size:10px;
+border-top: 1px solid #dedede;
+padding: 3px;
+}
+
+.calendar tfoot .hilite { 
+background: #aaf;
+border: 1px solid #04f;
+color: #000;
+padding: 1px;
+}
+
+.calendar tfoot .active { 
+background: #77c;
+padding: 2px 0px 0px 2px;
+}
+
+.calendar .combo {
+position: absolute;
+display: none;
+top: 0px;
+left: 0px;
+width: 4em;
+border: 1px solid #ccc;
+background: #f5f5f5;
+color: #222;
+font-size: 90%;
+z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+text-align: center;
+padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+width: 4em;
+}
+
+.calendar .combo .hilite {
+background: #444;
+color:#fff;
+}
+
+.calendar .combo .active {
+border-top: 1px solid #999;
+border-bottom: 1px solid #999;
+background: #dedede;
+font-weight: bold;
+}
